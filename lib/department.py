@@ -33,7 +33,7 @@ class Department:
         return self._location
     
     @location.setter
-    def loctation(self, location):
+    def location(self, location):
         if isinstance(location, str) and len(location):
             self._location = location
         else:
